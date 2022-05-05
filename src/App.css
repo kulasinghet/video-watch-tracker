@@ -1,5 +1,17 @@
+body {
+  background-color: #E76F51;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+
 .App {
+  padding: 20px;
   text-align: center;
+  border-radius: 10px;
 }
 
 .App-logo {
