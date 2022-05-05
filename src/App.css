@@ -7,6 +7,9 @@ body {
   justify-content: center;
 }
 
+span {
+  margin: 10px;
+}
 
 .App {
   padding: 20px;

@@ -30,7 +30,7 @@ function App() {
     <div className="App">
       <h3>Next Video to Watch</h3>
         <h1>{videoWatch}</h1>
-        <Button variant="primary" onClick={handleAddClick}>Watched It!</Button>
+        <Button variant="primary" onClick={handleAddClick}>Watched It!</Button><span> </span>
         <Button variant="danger" onClick={handleReduceClick}>Remove It!</Button>
     </div>
   );
